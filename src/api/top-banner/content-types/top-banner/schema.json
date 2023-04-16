@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_banners",
+  "info": {
+    "singularName": "top-banner",
+    "pluralName": "top-banners",
+    "displayName": "Top Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner_name": {
+      "type": "string",
+      "required": true
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
